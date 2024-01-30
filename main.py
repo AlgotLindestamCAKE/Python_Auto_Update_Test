@@ -1,9 +1,10 @@
 import os
 import time
-import metadata
+
+PROGRAM_VERSION = "0.0.0"
 
 def main():
-    printout = "Installed version = "+metadata.PROGRAM_VERSION
+    printout = "Installed version = "+PROGRAM_VERSION
     print(printout)
 
     timestamp = time.strftime("%Y-%m-%d %H%M%S")
