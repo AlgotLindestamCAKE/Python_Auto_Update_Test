@@ -1,7 +1,7 @@
 import os
 import time
 
-PROGRAM_VERSION = "0.0.0"
+PROGRAM_VERSION = "1.0.0"
 
 def main():
     printout = "Installed version = "+PROGRAM_VERSION
